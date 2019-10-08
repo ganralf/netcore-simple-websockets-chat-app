@@ -24,3 +24,4 @@
 **/.vscode
 **/.idea
 *.userprefs
+**/aws-lambda-tools-defaults.json

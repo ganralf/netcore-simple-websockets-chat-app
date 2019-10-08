@@ -12,7 +12,6 @@ To install the global tool execute the command. Be sure at least version 3.1.0 o
 dotnet tool install -g Amazon.Lambda.Tools
 ```
 
-Then to deploy execute the following command in the root directory of this repository.
-```
-dotnet lambda deploy-serverless <stack-name> --region <region> --s3-bucket <storage-bucket>
-```
+Download the [AWS Toolkit for Visual Studio](https://aws.amazon.com/visualstudio/)
+
+Deploy the WebsocketChat project using the "Deploy to AWS Lambda..." context option. This will guide automatically create all relevant AWS resources.
